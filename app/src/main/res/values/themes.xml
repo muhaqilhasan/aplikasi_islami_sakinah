@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Sakinah" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna Utama Aplikasi -->
+        <item name="colorPrimary">@color/emerald_primary</item>
+        <item name="colorSecondary">@color/gold_accent</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/background_page</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Mapping Material 3 ke Warna Kita -->
+        <item name="colorSurface">@color/background_page</item>
+        <item name="colorSurfaceVariant">@color/surface_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/divider</item>
+    </style>
+
+    <style name="Theme.Sakinah.Transparent" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Theme.Sakinah.Splash" parent="Theme.SplashScreen">
+        <!-- Warna Latar Belakang (Emerald Green) -->
+        <item name="windowSplashScreenBackground">@color/emerald_primary</item>
+
+        <!-- Ikon di Tengah (Gunakan ikon foreground yang sudah kita buat) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+
+        <!-- Durasi animasi icon (Opsional, max 1000ms) -->
+        <item name="windowSplashScreenAnimationDuration">500</item>
+
+        <!-- Tema yang akan dipakai SETELAH Splash selesai -->
+        <item name="postSplashScreenTheme">@style/Theme.Sakinah</item>
+    </style>
+
+    <style name="Theme.Sakinah" parent="Base.Theme.Sakinah" />
+</resources>

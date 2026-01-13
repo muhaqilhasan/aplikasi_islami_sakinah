@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Area Transparan (Penting untuk Pivot Center) -->
+    <!-- Viewport 200x200, Center di 100,100 -->
+
+    <!-- Ikon Ka'bah di Ujung Jarum -->
+    <group>
+        <path
+            android:pathData="M90,30 L110,30 L110,50 L90,50 Z"
+            android:fillColor="#000000"/>
+        <path
+            android:pathData="M90,36 L110,36"
+            android:strokeColor="#F59E0B"
+            android:strokeWidth="2"/>
+    </group>
+
+    <!-- Batang Jarum (Menunjuk ke Ka'bah) -->
+    <!-- Dari tengah (100,100) ke arah atas (Ka'bah) -->
+    <path
+        android:pathData="M100,55 L100,90"
+        android:strokeColor="#10B981"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- Kepala Panah -->
+    <path
+        android:pathData="M100,52 L94,62 L106,62 Z"
+        android:fillColor="#10B981"/>
+
+    <!-- Ekor Jarum (Penyeimbang Visual di Belakang) -->
+    <path
+        android:pathData="M100,110 L100,130"
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- Titik Poros Tengah (Center Pivot) -->
+    <path
+        android:pathData="M100,100 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0"
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#10B981"
+        android:strokeWidth="3"/>
+
+    <path
+        android:pathData="M100,100 m-3,0 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0"
+        android:fillColor="#10B981"/>
+
+</vector>

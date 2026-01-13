@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="app_name">Sakinah</string>
+    <string name="greeting">Peace be upon you,</string>
+    <string name="qibla">Qibla</string>
+
+    <!-- Navigation Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="menu_calendar">Calendar</string>
+    <string name="menu_prayers">Prayers</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Home Fragment -->
+    <string name="dailyDoa">Daily Prayer</string>
+    <string name="readMore">Read more</string>
+    <string name="quoteTitle">Featured Verse</string>
+    <string name="towards">Towards</string>
+    <string name="remaining">remaining</string>
+    <string name="masehi">Gregorian</string>
+    <string name="hijri">Hijri</string>
+
+    <!-- Schedule Fragment -->
+    <string name="prayer_active">Now Active</string>
+    <string name="location_mock">Bandung, West Java</string>
+
+    <!-- Calendar Fragment -->
+    <string name="agenda">Agenda &amp; Events</string>
+    <string name="toggle_masehi">Gregorian</string>
+    <string name="toggle_hijri">Hijri</string>
+
+    <!-- Calendar Legend -->
+    <string name="holidayMasehi">Public Holiday</string>
+    <string name="holidayHijri">Islamic Holiday</string>
+    <string name="sunnah">Sunnah Fasting</string>
+    <string name="wajib">Mandatory Fasting</string>
+    <string name="ayyamul">White Days</string>
+
+    <!-- Prayers Fragment -->
+    <string name="search_hint">Search prayer (e.g. sleep)...</string>
+    <string name="category_all">All</string>
+    <string name="category_morning_evening">Morning &amp; Evening</string>
+    <string name="category_food">Food</string>
+    <string name="doa_not_found">Prayer not found.</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_general">GENERAL</string>
+    <string name="settings_nickname">Nickname</string>
+    <string name="settings_appearance">APPEARANCE</string>
+    <string name="settings_theme">App Theme</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="settings_language">LANGUAGE</string>
+    <string name="settings_notif">Notification &amp; Sound</string>
+    <string name="settings_sound">Adhan Sound</string>
+    <string name="version">App Version 1.5.1</string>
+
+    <!-- Accessibility -->
+    <string name="cd_location_icon">Location Icon</string>
+    <string name="cd_notification_icon">Notification Icon</string>
+    <string name="cd_prev_month">Previous Month</string>
+    <string name="cd_next_month">Next Month</string>
+    <!-- Add to Prayers Fragment section -->
+    <string name="category_sholat">Prayer</string>
+    <string name="category_home">Home</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_daily">Daily</string>
+    <string name="category_family">Family</string>
+    <string name="category_other">Others</string>
+</resources>

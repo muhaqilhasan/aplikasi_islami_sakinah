@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingVertical="6dp"
+    android:paddingHorizontal="2dp">
+
+    <!-- Lingkaran Background untuk Tanggal Utama -->
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/bgDay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:strokeWidth="0dp"/>
+
+        <TextView
+            android:id="@+id/tvMainDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="12"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"/>
+    </FrameLayout>
+
+    <!-- Tanggal Kecil (Sub Date) -->
+    <TextView
+        android:id="@+id/tvSubDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:text="٢٣"
+        android:textSize="10sp"
+        android:textColor="@color/text_secondary"/>
+
+    <!-- Indicators Container (Dots) -->
+    <LinearLayout
+        android:id="@+id/indicatorContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:spacing="2dp">
+
+        <!-- Dot examples (diatur via code nanti) -->
+        <View
+            android:id="@+id/dot1"
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:background="@drawable/bg_circle_indicator"
+            android:backgroundTint="@color/event_holiday"
+            android:visibility="gone"
+            android:layout_marginEnd="2dp"/>
+
+        <View
+            android:id="@+id/dot2"
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:background="@drawable/bg_circle_indicator"
+            android:backgroundTint="@color/gold_accent"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>

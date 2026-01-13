@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="app_name">السكينة</string>
+    <string name="greeting">السلام عليكم،</string>
+    <string name="qibla">القبلة</string>
+
+    <!-- Navigation Menu -->
+    <string name="menu_home">الرئيسية</string>
+    <string name="menu_schedule">المواقيت</string>
+    <string name="menu_calendar">التقويم</string>
+    <string name="menu_prayers">الأدعية</string>
+    <string name="menu_settings">الإعدادات</string>
+
+    <!-- Home Fragment -->
+    <string name="dailyDoa">دعاء اليوم</string>
+    <string name="readMore">اقرأ المزيد</string>
+    <string name="quoteTitle">آية مختارة</string>
+    <string name="towards">نحو صلاة</string>
+    <string name="remaining">المتبقي</string>
+    <string name="masehi">ميلادي</string>
+    <string name="hijri">هجري</string>
+
+    <!-- Schedule Fragment -->
+    <string name="prayer_active">الآن</string>
+    <string name="location_mock">باندونغ، إندونيسيا</string>
+
+    <!-- Calendar Fragment -->
+    <string name="agenda">الأجندة والمناسبات</string>
+    <string name="toggle_masehi">ميلادي</string>
+    <string name="toggle_hijri">هجري</string>
+
+    <!-- Calendar Legend -->
+    <string name="holidayMasehi">عطلة رسمية</string>
+    <string name="holidayHijri">عيد إسلامي</string>
+    <string name="sunnah">صيام التطوع</string>
+    <string name="wajib">صيام الفرض</string>
+    <string name="ayyamul">الأيام البيض</string>
+
+    <!-- Prayers Fragment -->
+    <string name="search_hint">ابحث عن دعاء...</string>
+    <string name="category_all">الكل</string>
+    <string name="category_morning_evening">الصباح والمساء</string>
+    <string name="category_food">الطعام</string>
+    <string name="doa_not_found">لم يتم العثور على دعاء.</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_general">عام</string>
+    <string name="settings_nickname">الاسم المستعار</string>
+    <string name="settings_appearance">المظهر واللغة</string>
+    <string name="settings_theme">سمة التطبيق</string>
+    <string name="settings_dark_mode">الوضع الداكن</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_notif">الإشعارات والصوت</string>
+    <string name="settings_sound">صوت الأذان</string>
+    <string name="version">الإصدار 1.5.1</string>
+
+    <!-- Accessibility -->
+    <string name="cd_location_icon">رمز الموقع</string>
+    <string name="cd_notification_icon">رمز الإشعار</string>
+    <string name="cd_prev_month">الشهر السابق</string>
+    <string name="cd_next_month">الشهر التالي</string>
+    <!-- Add to Prayers Fragment section -->
+    <string name="category_sholat">الصلاة</string>
+    <string name="category_home">المنزل</string>
+    <string name="category_travel">السفر</string>
+    <string name="category_daily">يومي</string>
+    <string name="category_family">العائلة</string>
+    <string name="category_other">أخرى</string>
+</resources>

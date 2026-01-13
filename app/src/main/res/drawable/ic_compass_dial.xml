@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="300dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+
+    <!-- Outer Ring Background -->
+    <path
+        android:pathData="M150,150m-140,0a140,140 0 1,1 280,0a140,140 0 1,1 -280,0"
+        android:fillColor="#F8FAFC"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="2"/>
+
+    <!-- Inner Ring -->
+    <path
+        android:pathData="M150,150m-110,0a110,110 0 1,1 220,0a110,110 0 1,1 -220,0"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1"/>
+
+    <!-- Cardinal Points (Cross) -->
+    <path
+        android:pathData="M150,20 L150,40 M150,260 L150,280 M20,150 L40,150 M260,150 L280,150"
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+    <!-- North Marker (Triangle Red) -->
+    <path
+        android:pathData="M150,10 L142,25 L158,25 Z"
+        android:fillColor="#EF4444"/>
+
+    <!-- Huruf U (Utara) -->
+    <path
+        android:pathData="M145,35 V45 C145,48 155,48 155,45 V35"
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- Ticks (Garis-garis derajat sederhana) -->
+    <path
+        android:pathData="M150,150 L150,150"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="1"/>
+    <!-- (Vector XML murni agak sulit loop tick marks, kita pakai visual minimalis di atas) -->
+
+</vector>

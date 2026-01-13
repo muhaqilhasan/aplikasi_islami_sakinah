@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SEMANTIC COLORS (Dark Mode Optimized) -->
+
+    <!-- Branding -->
+    <!-- Menggunakan Emerald 600 di dark mode agar tetap kontras dengan text putih -->
+    <color name="emerald_primary">#059669</color>
+    <color name="emerald_dark">#022C22</color> <!-- Sangat gelap untuk gradient end -->
+    <color name="emerald_light">#064E3B</color> <!-- Background chip -->
+    <color name="emerald_dark_mode">#34D399</color> <!-- Untuk text/icon accent -->
+
+    <color name="gold_accent">#FBBF24</color>
+    <color name="gold_light">#422006</color>
+
+    <!-- Backgrounds (Modern Slate Palette) -->
+    <!-- Background halaman sangat gelap (Slate 950) -->
+    <color name="background_page">#020617</color>
+    <color name="background_light">#020617</color>
+    <color name="background_dark">#020617</color>
+
+    <!-- Card sedikit lebih terang (Slate 900) -->
+    <color name="surface_card">#0F172A</color>
+    <color name="surface_light">#0F172A</color>
+    <color name="surface_dark">#0F172A</color>
+
+    <!-- Input field lebih terang lagi (Slate 800) -->
+    <color name="input_background">#1E293B</color>
+
+    <!-- Typography -->
+    <!-- Primary: Hampir Putih Murni -->
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_primary_light">#F8FAFC</color>
+    <color name="text_primary_dark">#F8FAFC</color>
+
+    <!-- Secondary: Abu-abu Terang (Slate 400) -> Ditingkatkan keterbacaannya -->
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_secondary_light">#94A3B8</color>
+    <color name="text_secondary_dark">#94A3B8</color>
+
+    <color name="text_inverse">#0F172A</color>
+
+    <!-- Elements -->
+    <color name="divider">#1E293B</color>
+    <color name="divider_light">#1E293B</color>
+    <color name="divider_dark">#1E293B</color>
+
+    <!-- Events -->
+    <color name="event_sunnah">#A78BFA</color>
+    <color name="event_holiday">#F87171</color>
+
+    <!-- Standard -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Kompatibilitas -->
+    <color name="bg_light">#020617</color>
+
+    <!-- Hero Gradient khusus Dark Mode (Agar teks putih terbaca) -->
+    <color name="hero_start">#059669</color> <!-- Emerald 600 -->
+    <color name="hero_end">#064E3B</color>   <!-- Emerald 800 -->
+</resources>

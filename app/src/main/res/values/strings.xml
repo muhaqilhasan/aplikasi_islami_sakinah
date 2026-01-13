@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="app_name">Sakinah</string>
+    <string name="greeting">Assalamualaikum,</string>
+    <string name="qibla">Kiblat</string>
+
+    <!-- Navigation Menu -->
+    <string name="menu_home">Beranda</string>
+    <string name="menu_schedule">Jadwal</string>
+    <string name="menu_calendar">Kalender</string>
+    <string name="menu_prayers">Doa</string>
+    <string name="menu_settings">Pengaturan</string>
+
+    <!-- Home Fragment -->
+    <string name="dailyDoa">Doa Hari Ini</string>
+    <string name="readMore">Baca selengkapnya</string>
+    <string name="quoteTitle">Ayat Pilihan</string>
+    <string name="towards">Menuju</string>
+    <string name="remaining">lagi</string>
+    <string name="masehi">Masehi</string>
+    <string name="hijri">Hijriah</string>
+
+    <!-- Schedule Fragment -->
+    <string name="prayer_active">Sedang Berlangsung</string>
+    <string name="location_mock">Bandung, Jawa Barat</string>
+
+    <!-- Calendar Fragment -->
+    <string name="agenda">Agenda &amp; Acara</string>
+    <string name="toggle_masehi">Masehi</string>
+    <string name="toggle_hijri">Hijriah</string>
+
+    <!-- Calendar Legend -->
+    <string name="holidayMasehi">Libur Nasional</string>
+    <string name="holidayHijri">Hari Besar Islam</string>
+    <string name="sunnah">Puasa Sunnah</string>
+    <string name="wajib">Puasa Wajib</string>
+    <string name="ayyamul">Ayyamul Bidh</string>
+
+    <!-- Prayers Fragment -->
+    <string name="search_hint">Cari doa (misal: tidur)...</string>
+    <string name="category_all">Semua</string>
+    <string name="category_morning_evening">Pagi &amp; Petang</string>
+    <string name="category_food">Makanan</string>
+    <string name="doa_not_found">Doa tidak ditemukan.</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_general">UMUM</string>
+    <string name="settings_nickname">Nama Panggilan</string>
+    <string name="settings_appearance">TAMPILAN</string>
+    <string name="settings_theme">Tema Aplikasi</string>
+    <string name="settings_dark_mode">Mode Gelap</string>
+    <string name="settings_language">BAHASA</string>
+    <string name="settings_notif">Notifikasi &amp; Suara</string>
+    <string name="settings_sound">Suara Adzan</string>
+    <string name="version">Versi Aplikasi 1.5.1</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="cd_location_icon">Ikon Lokasi</string>
+    <string name="cd_notification_icon">Ikon Notifikasi</string>
+    <string name="cd_prev_month">Bulan Sebelumnya</string>
+    <string name="cd_next_month">Bulan Selanjutnya</string>
+    <!-- Tambahkan di bagian Prayers Fragment -->
+    <string name="category_sholat">Shalat</string>
+    <string name="category_home">Rumah</string>
+    <string name="category_travel">Perjalanan</string>
+    <string name="category_daily">Harian</string>
+    <string name="category_family">Keluarga</string>
+    <string name="category_other">Lainnya</string>
+</resources>
